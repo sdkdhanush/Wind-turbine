@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(17, 96, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+header h3{
+    color: cornsilk;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    color: cornsilk;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+
+}
+main{
+    background-image: url('ship.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 95%;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.main-content h2{
+    color: rgb(17, 96, 141);
+    font-size: 2rem;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+img{
+    width: 50%;
+    height: 100%;
+}
+#currentmain{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(17, 96, 141);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 20%;
+
+}
+#images{
+    display: flex;
+
+}
+#advantage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#advpara{
+    width: 50%;
+    height: 30%;
+    border: 2px solid rgb(17, 96, 141);
+    border-radius: 6px;
+    padding: 10px;
+
+}
